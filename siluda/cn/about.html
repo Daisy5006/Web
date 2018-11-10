@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/lianjie.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=4IU3oIAMpZhfWZsMu7xzqBBAf6vMHcoa"></script>
+    <script src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+    <script src="js/MSClass.js"></script>
+	<script src="js/commit.js"></script>
+</head>
+<body> 
+     <!--头部  -->
+    <div class="header">
+        <div class="warp">
+            <p class="fl">您好，欢迎访问XX票务公司网站！</p>
+            <p class="fr">
+                <a  href="#" onClick="SetHome('网址')" href="javascript:void(0)" title="设为首页" class="homepage">设为首页</a>
+                <span>&nbsp;※&nbsp;</span>
+                <a href="javascript:void(0)" onclick="AddFavorite()">加入收藏</a>
+            </p>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div class="nav">
+        <div class="warp">
+            <div class="logo fl">
+                <span>TICKETING</span>
+            </div>
+            <ul class="fr">
+                <li class="fl"><a href="index.html">首页</a></li>
+                <li class="fl"><a href="about.html">关于我们</a></li>
+                <li class="fl"><a href="solution.html">解决方案</a></li>
+                <li class="fl"><a href="products.html">产品中心</a></li>
+                <li class="fl"><a href="case.html">工程案例</a></li>
+                <li class="fl"><a href="news.html">新闻动态</a></li>
+                <li class="fl"><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 首页公司简介 -->
+    <div class="index-about">
+        <div class="warp">
+            <div class="index-about-pic wow slideInLeft fl">
+                <img src="images/index-about-pic.png"  alt="">
+            </div>
+            <div class="index-about-text fr">
+                <strong>TICKETING</strong>
+                <div class="clear"></div>
+                <p>
+                    诚信经营  客户第一    Integrity management, customer first​
+                </p>
+                <div class="index-about-text-box">
+                    <p>
+                        本公司成立于1995年，作为一家专业航空代理公司，在1996年相继获得了中国民用航空总局授予的一、二类国际、国内客运代理资格，并于1997年通过严格的审评与考核，取得了国际航空协会（即IATA）颁发的代理资格证书，并与众多外国航空公司签订了一级代理协议。例如：汉莎、法航、美联航、美西北等近五十家外国航空公司。曾获英国航空公司'1999年度十佳代理人“称号。
+                    </p>
+                    <a href="#">在线订票 BOOK ONLINE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 关于我们主体 -->
+    <div class="about-body">
+        <div class="warp">
+            <div class="about-left fl">
+                <div class="about-left-tit ">
+                    <p>票务推荐 | Ticketing recommendation</p>
+                </div>
+                <div class="about-left-swiper" id="pic_s">
+                    <table>
+                        <tr>
+                            <td >
+                                <a href="javascript:void(0)">
+                                    <img src="images/ticket-1.jpg"/>
+                                    <p>上海飞北京</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <a href="javascript:void(0)">
+                                    <img src="images/ticket-2.jpg"/>
+                                    <p>上海飞北京</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="javascript:void(0)">
+                                    <img src="images/ticket-3.jpg" />
+                                    <p>上海飞北京</p>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <a href="javascript:void(0)">
+                                    <img src="images/ticket-4.jpg" />
+                                    <p>上海飞北京</p>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="about-right fr">
+                <div class="about-right-tit">
+                    <strong>TICKETING </strong>
+                </div>
+                <div class="about-right-body">
+                    <p style="text-indent:2em;">
+                        本公司成立于1995年，作为一家专业航空代理公司，在1996年相继获得了中国民用航空总局授予的一、二类国际、国内客运代理资格，并于1997年通过严格的审评与考核，取得了国际航空协会（即IATA）颁发的代理资格证书，并与众多外国航空公司签订了一级代理协议。例如：汉莎、法航、美联航、美西北等近五十家外国航空公司。曾获英国航空公司'1999年度十佳代理人“称号。2000年度销售额局北京地区各家航空服务公司前十名之内。根据民航计算机中心统计，2000年外航订座量为北京地区第三名。于2000年10月荣获中国民航总局颁发的“中国民航GDS全球分销系统优秀可户”称号。
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            2001年相继荣获：星空联盟在华八家成员企业联合颁发的“2001年度星空联盟北京地区优秀代理人奖”、中国国际航空公司颁发的“2001度客运销售银奖”、中国航信颁发的“2001年度优秀客户奖”.......
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            为更好的服务于可户，本中心下设销售部、客运部、及商务旅游部。并与首都机场空港俱乐部合作，创立了自己的一条完整服务体系：购票、送票、全国12家酒店预订、国际酒店预订。
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            本公司员工均经过代理专业培训并通过严格考核取得专业资格证书。中心除拥有中国民航CRS电脑定位系统外，还装有AMADEUS及GALILEO等电脑系统，并相继在香港、澳大利亚、美国、德国建立良好的运营网络，为可户提供境外商务安排及吃、住、行、游全方面服务，更好的满足了可户的需要。  
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            您好：XXXXXXX航空服务中心是一家具有一类代理资格的航空中心，可提供给您我中心所拥有的一类代理机票价格及各条航线的特价。
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            1、本中心代理世界30余家航空公司的国际机票
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            2、本中心为您设计较佳航线，并在座位紧张时，为您申请并预留座位，可为外地来京客人预订优惠星级酒店
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            3、免费办理航空公司会员卡，累计里程可获得免票。
+                    </p>
+                    <br>
+                    <br>
+                    <p>
+                            4、为满足各大、中形，企、事业单位，欲寻航空代理既具丰富专业经验，又具实力的需求，我中心可提供先送票，每月一结的合作方式
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="about-pic">
+                <div class="index-service-body">
+                    <div class="index-service-left fl wow bounceInLeft" data-wow-duration="2s">
+                        <img src="images/index-service-1.png" class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s"  alt="">
+                        <p class="index-service-cn">送票上门</p>
+                        <p class="index-service-en">Send a ticket to the door</p>
+                    </div>
+                    <div class="index-service-bg fl"></div>
+                    <div class="index-service-center1  wow bounceInLeft fl" data-wow-duration="2s">
+                        <img src="images/index-service-2.png" class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s" alt="">
+                        <p class="index-service-cn">及时响应</p>
+                        <p class="index-service-en">Respond in time</p>
+                    </div>
+                    <div class="index-service-bg fl"></div>
+                    <div class="index-service-center2  wow bounceInRight fl" data-wow-duration="2s">
+                        <img src="images/index-service-3.png" class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s" alt="">
+                        <p class="index-service-cn">完善客服</p>
+                        <p class="index-service-en">Perfect customer service</p>
+                    </div>
+                    <div class="index-service-bg fl"></div>
+                    <div class="index-service-right  wow bounceInRight fr" data-wow-duration="2s">
+                        <img src="images/index-service-4.png" class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s" alt="">
+                        <p class="index-service-cn">同步信息</p>
+                        <p class="index-service-en">Synchronization information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 地图,不加会报错 -->
+    <div class="index-contact-map" style="display:none;">
+        <div id="allmap">
+            <div id="result">
+                <input type="button"  onclick="openInfoWindow1()"/>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- 返回顶部 -->
+    <button class="returnTop"></button>
+    <div class="footer clearfix">
+        <div class="warp">
+            <div class="footer-body ">
+                <div class="footer-left fl">
+                    <ul>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-center fl">
+                    <strong>TICKETING</strong>
+                    <div class="footer-center-pic">
+                        <img src="images/index-about-pic.png"  alt="">
+                    </div>
+                </div>
+                <div class="index-right fr">
+                    <div class="footer-right-fl fl">
+                        <img src="images/erweima.png" alt="">
+                        <p>扫描二维码关注微信公众号</p>
+                    </div>
+                    <div class="footer-right-fr fr">
+                        <img src="images/erweima.png" alt="">
+                        <p>扫描二维码关注官方网站</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="footer-bottom">
+                <p>Copyright yourname allrights reserved</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/lianjie.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=4IU3oIAMpZhfWZsMu7xzqBBAf6vMHcoa"></script>
+	<script src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<script src="js/commit.js"></script>
+</head>
+<body> 
+     <!--头部  -->
+    <div class="header">
+        <div class="warp">
+            <p class="fl">您好，欢迎访问XX票务公司网站！</p>
+            <p class="fr">
+                <a  href="#" onClick="SetHome('网址')" href="javascript:void(0)" title="设为首页" class="homepage">设为首页</a>
+                <span>&nbsp;※&nbsp;</span>
+                <a href="javascript:void(0)" onclick="AddFavorite()">加入收藏</a>
+            </p>
+        </div>
+    </div>
+    <embed src="images/群星 - 回家 (萨克斯演奏).mp3" hidden="true" autostart="true" loop="true" type="">
+    <!-- 导航 -->
+    <div class="nav">
+        <div class="warp">
+            <div class="logo fl">
+                <span>TICKETING</span>
+            </div>
+            <ul class="fr">
+                <li class="fl"><a href="index.html">首页</a></li>
+                <li class="fl"><a href="about.html">关于我们</a></li>
+                <li class="fl"><a href="solution.html">解决方案</a></li>
+                <li class="fl"><a href="products.html">产品中心</a></li>
+                <li class="fl"><a href="case.html">工程案例</a></li>
+                <li class="fl"><a href="news.html">新闻动态</a></li>
+                <li class="fl"><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 首页公司简介 -->
+    <div class="index-about">
+        <div class="warp">
+            <div class="index-about-pic wow slideInLeft fl">
+                <img src="images/index-about-pic.png"  alt="">
+            </div>
+            <div class="index-about-text fr">
+                <strong>TICKETING</strong>
+                <div class="clear"></div>
+                <p>
+                    诚信经营  客户第一    Integrity management, customer first​
+                </p>
+                <div class="index-about-text-box">
+                    <p>
+                        本公司成立于1995年，作为一家专业航空代理公司，在1996年相继获得了中国民用航空总局授予的一、二类国际、国内客运代理资格，并于1997年通过严格的审评与考核，取得了国际航空协会（即IATA）颁发的代理资格证书，并与众多外国航空公司签订了一级代理协议。例如：汉莎、法航、美联航、美西北等近五十家外国航空公司。曾获英国航空公司'1999年度十佳代理人“称号。
+                    </p>
+                    <a href="#">在线订票 BOOK ONLINE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 视频播放 -->
+    <div class="index-video">
+        <div class="warp">
+            <div class="index-video-left fl">
+                
+				<embed src="http://player.youku.com/player.php/sid/XMzQ4MjY0NTcxNg==/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" flashvars="isAutoPlay=false&amp;embedid=-&amp;showAd=0" width="350" height="250">
+
+                <p>水幕激光</p>
+            </div>
+            <div class="index-video-center fl">
+                
+				<embed src="http://player.youku.com/player.php/sid/XMzQ4MjY0NTcxNg==/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" flashvars="isAutoPlay=false&amp;embedid=-&amp;showAd=0" width="350" height="250">
+
+                <p>水幕激光</p>
+               
+            </div>
+            <div class="index-video-right fr">
+                
+				<embed src="http://player.youku.com/player.php/sid/XMzQ4MjY0NTcxNg==/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" flashvars="isAutoPlay=false&amp;embedid=-&amp;showAd=0" width="350" height="250">
+
+                <p>水幕激光</p>
+            </div>
+        </div>
+    </div>
+    <!-- 视差滚动 -->
+    <div class="index-steller" data-stellar-background-ratio="0.5">
+        <div class="warp">
+           <div class="index-steller-text wow slideInRight fr">
+                <strong class="fr">TICKETING</strong>
+                <div class="clear"></div>
+                <p>
+                    本公司成立于1995年，作为一家专业航空代理公司，在1996年相继获得了中国民用航空总局授予的一、二类国际、国内客运代理资格，并于1997年通过严格的审评与考核，取得了国际航空协会（即IATA）颁发的代理资格证书，并与众多外国航空公司签订了一级代理协议。例如：汉莎、法航、美联航、美西北等近五十家外国航空公司。曾获英国航空公司'1999年度十佳代理人“称号。2000年度销售额局北京地区各家航空服务公司前十名之内。根据民航计算机中心统计，2000年外航订座量为北京地区第三名。于2000年10月荣获中国民航总局颁发的“中国民航GDS全球分销系统优秀可户”称号。
+                </p>
+                <a class="fr" href="#">公司概况 COMPANY PROFILE</a>
+            </div> 
+        </div>
+    </div>  
+    <!-- 公司服务 -->
+    <div class="index-service">
+        <div class="warp">
+            <div class="index-service-body">
+                <div class="index-service-left fl wow bounceInLeft" data-wow-duration="2s">
+                    <img src="images/index-service-1.png"  alt="">
+                    <p class="index-service-cn">送票上门</p>
+                    <p class="index-service-en">Send a ticket to the door</p>
+                </div>
+                <div class="index-service-bg fl"></div>
+                <div class="index-service-center1  wow bounceInLeft fl" data-wow-duration="2s">
+                    <img src="images/index-service-2.png" alt="">
+                    <p class="index-service-cn">及时响应</p>
+                    <p class="index-service-en">Respond in time</p>
+                </div>
+                <div class="index-service-bg fl"></div>
+                <div class="index-service-center2  wow bounceInRight fl" data-wow-duration="2s">
+                    <img src="images/index-service-3.png" alt="">
+                    <p class="index-service-cn">完善客服</p>
+                    <p class="index-service-en">Perfect customer service</p>
+                </div>
+                <div class="index-service-bg fl"></div>
+                <div class="index-service-right  wow bounceInRight fr"  data-wow-duration="2s">
+                    <img src="images/index-service-4.png" alt="">
+                    <p class="index-service-cn">同步信息</p>
+                    <p class="index-service-en">Synchronization information</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 票务信息 -->
+    <div class="index-ticket">
+        <p>票务信息</p>
+        <p>TICKETS</p>
+        <div class="warp">
+            <div class="index-ticket-body">
+                <ul>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-1.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-2.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-3.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-4.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-1.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-2.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-3.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                    <li class="fl">
+                        <a href="#">
+                            <div class="index-ticket-img">
+                                <img src="images/ticket-4.jpg" alt="">
+                            </div>
+                            <p>上海飞成都</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- index-bg -->
+    <div class="index-bg">
+        <a href="#">&gt;&gt;&gt;&gt;</a>
+    </div>
+
+    <!-- 最新动态 -->
+    <div class="index-news">
+        <div class="index-news-tit">
+            <div class="warp">
+                <div class="index-news-tit-fl wow fadeInLeft fl">
+                    <a href="#">
+                        最新动态 | THE LATEST NEWS
+                    </a>
+                </div>
+                <ul class="index-news-tit-fr fr">
+                    <li class="fl"><a href="#"><i>行业动态</i></a></li>
+                    <li class="fl"><a href="#"><i>媒体报道</i></a></li>
+                    <li class="fl"><a href="#"><i>帮助信息</i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="index-news-body">
+            <div class="warp">
+                <div class="index-news-left fl">
+                    <div class="index-news-pic wow flipInY">
+                        <img src="images/index-news-fl.png" class="img" alt="">
+                    </div>
+                    <div class="index-news-fl-text">
+                        <div class="index-news-fl-tit">
+                            <a href="#">特航航空点击航空业、机票业产品销售构架</a>
+                            <p class="index-news-fl-time">250天前</p>
+                            <p class="index-news-fl-instro">尽管各航空公司、酒店、代理商为了扩大销售渠道、提高市场控制能力，纷纷推出自己的销售平台，然而旅客搜寻产品信息的时间成本依然很高。旅游垂直搜索网站的出现和不断发展，为消费者节省时间成本的同时，实际上起到了资源整合的作用，是构建航空业和旅游业多赢共享生态系统的重要组成部分。</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>250天前</span>
+                                <a href="#">网上旅游预订第一季度营收超10亿 淘宝欲分羹</a>
+                            </li>
+                            <li>
+                                <span>250天前</span>
+                                <a href="#">网上旅游预订第一季度营收超10亿 淘宝欲分羹</a>
+                            </li>
+                            <li>
+                                <span>250天前</span>
+                                <a href="#">网上旅游预订第一季度营收超10亿 淘宝欲分羹</a>
+                            </li>
+                            <li>
+                                <span>250天前</span>
+                                <a href="#">网上旅游预订第一季度营收超10亿 淘宝欲分羹</a>
+                            </li>
+                            <li>
+                                <span>250天前</span>
+                                <a href="#">网上旅游预订第一季度营收超10亿 淘宝欲分羹</a>
+                            </li>
+                            <li>
+                                <span>250天前</span>
+                                <a href="#">网上旅游预订第一季度营收超10亿 淘宝欲分羹</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="index-news-right fr">
+                    <ul>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2018-08-28</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 在线订票 -->
+    <div class="index-online">
+        <div class="index-online-tit">
+            <p>在线订票</p>
+            <p>BOOK ONLINE</p>
+        </div>
+        <div class="index-online-body">
+            <div class="warp">
+                <div class="index-online-fl fl">
+                    <form action="">
+                        <ul>
+                            <li class="fl">
+                                <label for="">姓名</label>
+                                <br>
+                                <input type="text" name="姓名">
+                            </li>
+                            <li class="fl">
+                                <label for="">身份证号</label>
+                                <br>
+                                <input type="text" name="身份证号">
+                            </li>
+                            <li class="fl">
+                                <label for="">出发城市</label>
+                                <br>
+                                <input type="text" name="出发城市">
+                            </li>
+                            <li class="fl">
+                                <label for="">目的城市</label>
+                                <br>
+                                <input type="text" name="目的城市">
+                            </li>
+                            <li class="fl">
+                                <label for="">出发日期</label>
+                                <br>
+                                <input type="date" name="mes[datepicker-i7]">
+                            </li>
+                            <li class="fl">
+                                <label for="">车次号</label>
+                                <br>
+                                <input type="text" name="车次号">
+                            </li>
+                            <li class="fl">
+                                <label for="">电话</label>
+                                <br>
+                                <input type="text" name="电话">
+                            </li>
+                            <li class="fl">
+                                <label for="">备注内容</label>
+                                <br>
+                                <input type="text" name="备注内容">
+                            </li>
+                        </ul>
+                        <input type="submit" value="提交">
+                    </form>
+                </div>
+                <div class="index-online-fr fr">
+                    <div class="index-online-erweima1 fl">
+                        <img src="images/erweima.png" class="wow bounceInRight" alt="">
+                        <p>扫描二维码关注微信公众号</p>
+                    </div>
+                    <div class="index-online-erweima2 fr">
+                        <img src="images/erweima.png" class="wow bounceInRight" alt="">
+                        <p>扫描二维码关注微信公众号</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="index-welcome wow bounceInRight" data-wow-delay="0.1s">
+                        <a href="#"><i>WELCOME TO US</i></a>
+                    </div>
+                    <div class="index-online-text wow bounceInRight" data-wow-delay="0.2s">
+                        <p>您好：XXXXXXX航空服务中心是一家具有一类代理资格的航空中心，可提供给您我中心所拥有的一类代理机票价格及各条航线的特价。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 联系我们 -->
+    <div class="index-contact">
+        <div class="index-contact-tit">
+            <p>联系我们</p>
+            <p>CONTACT US</p>
+        </div>
+        <div class="index-contact-body">
+            <div class="warp">
+                <div class="index-contact-left wow flipInY fl">
+                    <div class="index-contact-pic ">
+                        <img src="images/telphone.png" class="img" alt="">
+                    </div>
+                    <div class="index-contact-text">
+                        <p><i>电话</i></p>
+                        <p><i>000-00000</i></p>
+                    </div>
+                </div>
+                <div class="index-contact-center1  wow flipInY fl">
+                    <div class="index-contact-pic">
+                        <img src="images/home.png" class="img" alt="">
+                    </div>
+                    <div class="index-contact-text">
+                        <p><i>地址</i></p>
+                        <p><i>某某市某某区某某路x号</i></p>
+                    </div>
+                </div>
+                <div class="index-contact-center2  wow flipInY fl">
+                    <div class="index-contact-pic">
+                        <img src="images/e-mail.png" class="img" alt="">
+                    </div>
+                    <div class="index-contact-text">
+                        <p><i>邮箱</i></p>
+                        <p><i>00000000@qq.com</i></p>
+                    </div>
+                </div>
+                <div class="index-contact-right  wow flipInY fr">
+                    <div class="index-contact-pic">
+                        <img src="images/fax.png" class="img" alt="">
+                    </div>
+                    <div class="index-contact-text">
+                        <p><i>传真</i></p>
+                        <p><i>000-00000</i></p>
+                    </div>
+                </div> 
+                <div class="clear"></div>
+                <!-- 百度地图 -->
+                <div class="index-contact-map">
+                    <div id="allmap">
+                        <div id="result">
+                            <input type="button"  onclick="openInfoWindow1()"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- 返回顶部 -->
+    <button class="returnTop"></button>
+    <div class="footer clearfix">
+        <div class="warp">
+            <div class="footer-body ">
+                <div class="footer-left fl">
+                    <ul>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                        <li>
+                            <a href="#" class="fl">特航航空点击航空业、机票业产品销售构架</a>
+                            <span class="fr">2017-10-10</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-center fl">
+                    <strong>TICKETING</strong>
+                    <div class="footer-center-pic">
+                        <img src="images/index-about-pic.png"  alt="">
+                    </div>
+                </div>
+                <div class="index-right fr">
+                    <div class="footer-right-fl fl">
+                        <img src="images/erweima.png" alt="">
+                        <p>扫描二维码关注微信公众号</p>
+                    </div>
+                    <div class="footer-right-fr fr">
+                        <img src="images/erweima.png" alt="">
+                        <p>扫描二维码关注官方网站</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="footer-bottom">
+                <p>Copyright yourname allrights reserved</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

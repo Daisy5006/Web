@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pro{ float:left; display:inline; margin:5px 13px 15px;}
+.pro .pro-name{ text-align:center; line-height:30px; overflow:hidden; height:30px; width:269px; display:block;}
+.pro .pro-pic1{ padding:1px; border:1px solid #e6e6e6;}
+.pro .pro-pic1 a{display:block; height:133px; width:265px;}
+.container{ padding:3px; border:1px solid #CDCDCD;}
+
+
+.sub_pro{ float:left; width:150px; margin:5px 15px;}
+.sub_pro .pro-name{ text-align:center;}
+/*分页*/
+div.pager
+{
+    text-align:center;
+    margin:20px auto 0;
+    padding-bottom:10px;
+}
+div.pager span
+{
+    margin-left:8px;
+    margin-right:8px;
+}
+div.pager a
+{
+    margin-left:8px;
+    margin-right:8px;
+    text-decoration:none;
+    font-size: 14px;
+}
+div.ny-pager{
+    border-top: 1px dashed #eee;
+}
+
+
+/*新闻*/
+ul.news
+{
+    clear:both;
+    margin:0px;
+    padding:0px;
+}
+ul.news li
+{
+    background:url(../images/news_icon.png) no-repeat 13px center;
+    height:34px;
+    line-height:34px;
+    overflow:hidden;
+    text-indent:25px;
+    border-bottom:1px dashed #ccc;
+    overflow:hidden;
+}
+ul.news li span{
+    margin-right:10px;
+}
+ul.news li a
+{
+    text-decoration:none;
+}
+
+ul.news1
+{
+    clear:both;
+    margin:0px;
+    padding:0px;
+}
+ul.news1 li
+{
+}
+ul.news1 li a
+{
+    text-decoration:none;
+}
+
+.newstitle {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+}
+.news_message{
+    height:30px;
+    line-height:30px;
+    text-align:center;
+}
+.newssubtitle
+{}
+.newssubtitle span
+{
+    margin-left:20px;
+    font-weight:bold;
+}
+
+
+
+/*产品分类*/
+#pic_s{
+    padding-top:10px;
+}
+.chpzhsh_img{
+    width:476px;
+    padding-top:15px;
+    height:146px;
+    margin-left:2px;
+}
+.chpzhsh_img ul li{
+    float:left;
+    margin:0 3.5px;
+}
+.chpzhsh_img ul li a{
+    display:block;
+    width:147px;
+    height:121px;
+    border:1px solid #9c9c9c;
+}
+.show_name{
+    text-align:center;
+    height:25px;
+    line-height:25px;
+    overflow:hidden;
+}
+.arrow_left{
+    background:url(../images/jt_left.png) no-repeat;
+    height:19px;
+    width:12px;
+    cursor:pointer;
+    margin:76px 0 0 7px;
+}
+.arrow_right{
+    background:url(../images/jt_right.png) no-repeat;
+    height:19px;
+    width:12px;
+    cursor:pointer;
+    margin:76px 7px 0 0;
+}
+
+/*下载*/
+ul.downloads
+{
+    clear:both;
+    margin:0px;
+    padding:0px;
+    padding-top:5px;
+}
+
+ul.downloads li
+{
+    margin-bottom:5px;
+}
+
+ul.downloads li a
+{
+    text-decoration:none;
+}

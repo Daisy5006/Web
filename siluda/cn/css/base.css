@@ -1,0 +1,46 @@
+/* 公共样式 */
+*{
+    padding:0;
+    margin:0;
+}
+body{
+      font-family: Microsoft YaHei;
+      font-size: 14px;
+      color:#333;
+      margin: 0;
+      padding: 0;
+}
+a{
+    color:#333;
+    text-decoration:none;
+    font-family:Microsoft YaHei;
+}
+a:hover{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.warp{
+    width:1200px;
+    height: auto;
+    margin: 0px auto;
+}
+/* margin-top塌陷 */
+.clearfix:before{
+    display: table;
+    content: "";
+}
